@@ -1,5 +1,6 @@
 require "./fizzbuzz"
 require "test/unit"
+require "minitest/autorun"
 class FizzbuzzTest < Test::Unit::TestCase
 	
 	def test_fizzbuzz_simples
